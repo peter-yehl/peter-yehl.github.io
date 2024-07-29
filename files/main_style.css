@@ -27,7 +27,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .cento-header { position: relative; z-index: 9; width: 100%; background: #ffffff; padding: 40px 0 0; box-sizing: border-box; }
  .cento-header .logo { margin-bottom: 20px; }
  .cento-header .logo img { display: block; max-width: 200px; }
- .cento-header .logo #wsite-title {}
+ .cento-header .logo #wsite-title { display: block; max-width: 500px; margin: 0 auto; text-align: center;}
  .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
  .cento-header .nav-wrap { overflow: hidden; width: 100%; padding: 10px 0; background: #ffffff; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header .hamburger { display: none; }
