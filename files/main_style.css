@@ -154,7 +154,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .container { max-width: 768px; overflow-wrap: break-word; }
  .content-wrap .container { padding: 20px; }
  .footer-wrap .wsite-footer { width: 100%; padding: 40px 20px 20px; box-sizing: border-box; }
- .footer-wrap td.wsite-multicol-col { margin-bottom: 25px !important; }
+ .footer-wrap td.wsite-multicol-col { margin-bottom: 0px !important; }
  .footer-wrap td.wsite-multicol-col:last-child { width: 100% !important; }
  }
  @media screen and (max-width: 767px) {
