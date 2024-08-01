@@ -263,4 +263,10 @@ div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
 
-.nav ul li#active > a.wsite-buttons, .nav ul li > a.wsite-buttons:hover { color: #333333; transform: scale(1.2); transition: all 0.3s ease-in-out;}
+.transition-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.transition-image:hover {
+    transform: scale(1.2);
+}
