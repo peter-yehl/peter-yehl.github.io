@@ -262,11 +262,3 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
-
-.wsite-menu-item {
-    transition: all 0.3s ease-in-out;
-}
-
-.wsite-menu-item:hover {
-    transform: scale(1.2); /* Increase the size to 1.2 times its original size */
-}
