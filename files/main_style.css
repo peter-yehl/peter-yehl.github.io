@@ -171,7 +171,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
     }
   }
   
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 1500px) {
     body { 
       background-size: initial; 
       background-position: top center; 
