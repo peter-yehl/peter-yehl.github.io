@@ -156,6 +156,30 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
   .footer-wrap .wsite-footer { width: 100%; padding: 40px 20px 20px; box-sizing: border-box; }
   .footer-wrap td.wsite-multicol-col { margin-bottom: 25px !important; }
   .footer-wrap td.wsite-multicol-col:last-child { width: 100% !important; }
+  /* Initially hide the mobile menu */
+.nav-wrap {
+  display: none;
+}
+
+/* Show the menu when the hamburger is clicked */
+.nav-wrap.show {
+  display: block;
+}
+
+/* Style the hamburger button */
+.hamburger {
+  display: none;
+  /* Add your styling here */
+}
+
+/* Show hamburger button on mobile devices */
+@media (max-width: 767px) {
+  .hamburger {
+      display: block;
+      /* Add your styling here */
+  }
+}
+
   }
 
   @media screen and (max-width: 767px) {

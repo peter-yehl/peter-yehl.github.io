@@ -176,8 +176,18 @@ $(document).ready(function() {
       }, 500);
     }
   }
+  document.addEventListener('DOMContentLoaded', function () {
+    var hamburger = document.querySelector('.hamburger');
+    var navWrap = document.querySelector('.nav-wrap');
+
+    hamburger.addEventListener('click', function () {
+        navWrap.classList.toggle('show');
+    });
+});
+
 
   $(document).ready(function() {
     centoController.init();
   });
 });
+
