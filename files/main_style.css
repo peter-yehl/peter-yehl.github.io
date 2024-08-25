@@ -151,24 +151,11 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-com-checkout-section .wsite-form-field select, .wsite-com-checkout-section .wsite-form-field input, .wsite-com-checkout-section .wsite-form-field .select2-container { height: 40px; }
  .wsite-com-checkout-section .wsite-form-field input[type="radio"] { display: inline-block; width: 16px; height: 16px; margin: 0; }
  @media screen and (max-width: 992px) {
-    .container { 
-      max-width: 768px; 
-      overflow-wrap: break-word; 
-    }
-    .content-wrap .container { 
-      padding: 20px; 
-    }
-    .footer-wrap .wsite-footer { 
-      width: 100%; 
-      padding: 40px 20px 20px; 
-      box-sizing: border-box; 
-    }
-    .footer-wrap td.wsite-multicol-col { 
-      margin-bottom: 25px !important; 
-    }
-    .footer-wrap td.wsite-multicol-col:last-child { 
-      width: 100% !important; 
-    }
+  .container { max-width: 768px; overflow-wrap: break-word; }
+  .content-wrap .container { padding: 20px; }
+  .footer-wrap .wsite-footer { width: 100%; padding: 40px 20px 20px; box-sizing: border-box; }
+  .footer-wrap td.wsite-multicol-col { margin-bottom: 25px !important; }
+  .footer-wrap td.wsite-multicol-col:last-child { width: 100% !important; }
   }
 
   @media screen and (max-width: 767px) {
@@ -265,13 +252,12 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
     .wsite-com-continue-shopping .caret { display: inline-block; margin-top: 2px; }
     .wsite-com-checkout-payment-column, .wsite-com-checkout-summary-column { float: none; width: 100%; }
   }
- @media screen and (max-width: 480px) {
- #wsite-com-store .wsite-com-category-subcategory-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-featured-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-group .wsite-com-column { float: none; width: 100% !important; }
- #wsite-com-checkout-list .wsite-com-checkout-item-image, #wsite-com-checkout-summary-list .wsite-com-checkout-item-image { display: none; }
- #wsite-com-checkout-list tbody td:first-child, #wsite-com-checkout-summary-list tbody td:first-child { width: 0; padding: 0; }
- #wsite-com-checkout-list .wsite-com-checkout-item-details-inner, #wsite-com-checkout-summary-list .wsite-com-checkout-item-details-inner { padding-left: 0; }
- }
-
+  @media screen and (max-width: 480px) {
+    #wsite-com-store .wsite-com-category-subcategory-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-featured-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-group .wsite-com-column { float: none; width: 100% !important; }
+    #wsite-com-checkout-list .wsite-com-checkout-item-image, #wsite-com-checkout-summary-list .wsite-com-checkout-item-image { display: none; }
+    #wsite-com-checkout-list tbody td:first-child, #wsite-com-checkout-summary-list tbody td:first-child { width: 0; padding: 0; }
+    #wsite-com-checkout-list .wsite-com-checkout-item-details-inner, #wsite-com-checkout-summary-list .wsite-com-checkout-item-details-inner { padding-left: 0; }
+    }
 div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
