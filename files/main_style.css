@@ -158,7 +158,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
   
   .wsite-multicol-table {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    align-items: center;
+    max-width: 1000px; /* Adjust as needed */
   }
   
   .wsite-multicol-tbody {
