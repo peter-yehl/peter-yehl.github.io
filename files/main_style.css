@@ -174,11 +174,11 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
     text-align: center; /* Center content inside each column */
   }
   
-  .wsite-multicol-col img {
-    width: 50%; /* Make images responsive */
-    max-width: 150px; /* Adjust the maximum size */
+ /*.wsite-multicol-col img {
+    width: 50%; /* Make images responsive 
+    max-width: 150px; /* Adjust the maximum size 
   }
-  
+*/
   .wsite-multicol-col div {
     font-size: 90%;
     margin-top: 10px;
