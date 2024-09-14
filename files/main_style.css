@@ -150,6 +150,39 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-search-sidebar .close-btn { display: none; }
  .wsite-com-checkout-section .wsite-form-field select, .wsite-com-checkout-section .wsite-form-field input, .wsite-com-checkout-section .wsite-form-field .select2-container { height: 40px; }
  .wsite-com-checkout-section .wsite-form-field input[type="radio"] { display: inline-block; width: 16px; height: 16px; margin: 0; }
+ .wsite-multicol-table-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wsite-multicol-table {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+  }
+  
+  .wsite-multicol-tbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wsite-multicol-col {
+    width: 50%;
+    padding: 0 15px;
+    text-align: center; /* Center content inside each column */
+  }
+  
+  .wsite-multicol-col img {
+    width: 50%; /* Make images responsive */
+    max-width: 150px; /* Adjust the maximum size */
+  }
+  
+  .wsite-multicol-col div {
+    font-size: 90%;
+    margin-top: 10px;
+  }
+  
 
  /*@media screen and (max-width: 992px) {
     .container { max-width: 768px; overflow-wrap: break-word; }
